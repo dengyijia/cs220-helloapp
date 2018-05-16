@@ -1,3 +1,8 @@
+branches:
+  only:
+    - gh-pages
+    - /.*/
+
 jobs:
   include
   - stage: test
