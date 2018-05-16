@@ -1,9 +1,2 @@
-branches:
-  only:
-    - gh-pages
-    - /.*/
-
-jobs:
-  include
-  - stage: test
-    script: ./pytest
+script: 
+  - ./pytest
